@@ -1,0 +1,639 @@
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.nunito-sans {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+@font-face{
+    font-family: "Buenos Aires Trial";
+    src: url(fonts/BuenosAiresTrial-Bold.otf);
+    font-weight: 500;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", "Nunito Sans", sans-serif;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #49BBBD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 6vw 1vw 6vw;
+    left: 0;
+    right: 0;
+    font-family: "Poppins";  
+    z-index: 999;  
+}
+
+nav img {
+    width: 114px;
+    height: 83px;
+    top: 30px;
+    left: 121px;
+    border-radius: 6px;
+}
+
+nav .navigation {
+    display: flex;
+}
+
+nav .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .navigation ul li {
+    list-style: none;
+    margin-left: 40px;
+}
+
+nav .navigation ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 100%;
+    font-family: "Poppins";
+    font-weight: 400px;
+}
+
+
+nav .navigation ul li a.btn-white {
+    background-color: #FFFFFF;
+    width: 160px;
+    height: 60px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 80px;
+    color: #5B5B5B;
+}
+
+nav .navigation ul li a.btn-transparent {
+    background-color: #FFFFFF4D;
+    width: 160;
+    height: 60;
+    opacity: 1;
+    border-radius: 80px;
+    color: #FFFFFF;
+    padding: 10px 40px 10px 40px;
+    border-radius: 80px; 
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 96px 144px 96px 144px;
+    background-color: #49BBBD;
+}
+
+section#home:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    background: url('images/Header.png');
+    bottom: -125px;
+}
+
+
+#home .left {
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+   
+}
+
+
+
+#home .right {
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+    
+}
+
+#home .left h1 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+#home .left h1 .orange-txt {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+    color: orange;
+}
+
+#home .left p {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 50px;
+} 
+
+#home .left a.btn-transparent {
+    background-color: #FFFFFF4D;
+    width: 220;
+    height: 80;
+    top: 659px;
+    left: 100px;
+    opacity: 1;
+    border-radius: 80px;
+    color: #FFFFFF;
+    padding: 20px 40px 20px 40px;
+    border-radius: 80px;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+#home .left-btn {
+    position: relative;
+    display: flex;
+    width: 232;
+    height: 36;
+    top: 170px;
+    right: 300px;
+   
+
+}
+
+#home .left-btn img {
+    width: 80;
+    height: 80;
+    top: 659px;
+    left: 400px;
+}
+
+
+#home .left-btn p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #252641;
+    padding-top: 40px;
+    padding-right: 40px;
+} 
+
+#home .right img {
+    width: 600px;
+    height: 720px;
+    top: 225px;
+    left: 10px;
+    position: relative;
+  
+}
+
+#home  .img2 {
+    padding-bottom: 200px;
+}
+
+#home .achievement-cards .achievement-card1 {
+    width: 300;
+    height: 100;
+    color: #595959;
+    background-color: #FFFFFFCC;
+    backdrop-filter: blur(20px);
+    padding: 10px 40px 10px 40px;
+    display: flex;
+    position: absolute;
+    top: 409px;
+    left: 895px;
+    border-radius: 20px;
+
+}
+
+
+#home .achievement-cards .achievement-card1 .content {
+    position: relative;
+}
+
+
+
+#home .achievement-cards .achievement-card1 .content img {
+    width: 50;
+    height: 50;
+    top: 434px;
+    left: 923px;
+}
+
+#home .achievement-cards .achievement-card1 .content h3 {
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    font-size: 24px; 
+    line-height: 180%;
+}
+
+#home .achievement-cards .achievement-card1 .content p {
+    color: #595959;
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+}
+
+#home .achievement-cards .achievement-card2 {
+    width: 300;
+    height: 100;
+    color: #595959;
+    background-color: #FFFFFFCC;
+    backdrop-filter: blur(20px);
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    position: absolute;
+    top: 744px;
+    left: 883px;
+    border-radius: 20px;
+
+}
+
+
+#home .achievement-cards .achievement-card2 .content img {
+    width: 56;
+    height: 56;
+    top: 770px;
+    left: 909px;
+}
+
+#home .achievement-cards .achievement-card2 .content h3 {
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    font-size: 24px; 
+    line-height: 180%;
+}
+
+#home .achievement-cards .achievement-card2 .content p {
+    color: #595959;
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    padding-bottom: 20px;
+}
+
+#home .achievement-cards .achievement-card2 .content a.btn-pink {
+    background-color: #D8587E;;
+    width: 160px;
+    height: 60px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 80px;
+    color: #FFFFFF;
+}
+
+#home .achievement-cards .achievement-card3 {
+    width: 300;
+    height: 100;
+    color: #595959;
+    background-color: #FFFFFFCC;
+    backdrop-filter: blur(20px);
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    position: absolute;
+    top: 604px;
+    left: 1424px;
+    border-radius: 20px;
+}
+
+
+
+#home .achievement-cards .achievement-card3 .content img {
+    width: 50;
+    height: 50;
+    top: 634px;
+    left: 1450px;
+    border-radius: 8px;
+    background-color: orange;
+    padding: 10px;
+}
+
+#home .achievement-cards .achievement-card3 .content h3 {
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    font-size: 24px; 
+    line-height: 180%;
+}
+
+#home .achievement-cards .achievement-card3 .content p {
+    color: #595959;
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+}
+
+
+#success .top {
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10vw;
+}
+
+
+#success .top h1 {
+     font-family: "Buenos Aires Trial";
+     font-weight: 700;
+      font-style: Bold;
+     font-size: 48px;
+     line-height: 130%;
+     padding-top: 40px;
+     color: #010514;
+}
+
+#success .top p {
+    font-family: "Buenos Aires Trial";
+    font-weight: 100;
+    font-size: 18px;;
+    line-height: 160%;
+    text-align: center;
+    color: #010514CC;
+}
+
+
+#success .bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding-left:70px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+} 
+
+#success .bottom .info1 h2 {
+    font-family: "Buenos Aires Tria";
+    font-weight: 300;
+    font-style: Light;
+    font-size: 96px;
+    line-height: 100%;
+    background-image: linear-gradient(#136CB5, #49BBBD );
+    background-clip: text;
+    color: transparent;
+
+}
+
+#success .bottom .info1 p {
+    font-family: "Buenos Aires Trial";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    color: #010514CC;
+    
+}
+
+#success .bottom .info2 h2 {
+    font-family: "Buenos Aires Tria";
+    font-weight: 300;
+    font-style: Light;
+    font-size: 96px;
+    line-height: 100%;
+    background-image: linear-gradient(#136CB5, #49BBBD );
+    background-clip: text;
+    color: transparent;
+
+}
+
+#success .bottom .info2 p {
+    font-family: "Buenos Aires Trial";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    color: #010514CC;
+    
+}
+
+#success .bottom .info3 h2 {
+    font-family: "Buenos Aires Tria";
+    font-weight: 300;
+    font-style: Light;
+    font-size: 96px;
+    line-height: 100%;
+    background-image: linear-gradient(#136CB5, #49BBBD );
+    background-clip: text;
+    color: transparent;
+
+}
+
+#success .bottom .info3 p {
+    font-family: "Buenos Aires Trial";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    color: #010514CC;
+    
+}
+
+#success .bottom .info4 h2 {
+    font-family: "Buenos Aires Tria";
+    font-weight: 300;
+    font-style: Light;
+    font-size: 96px;
+    line-height: 100%;
+    background-image: linear-gradient(#136CB5, #49BBBD );
+    background-clip: text;
+    color: transparent;
+
+}
+
+#success .bottom .info4 p {
+    font-family: "Buenos Aires Trial";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    color: #010514CC;
+    
+}
+
+#success .bottom .info5 h2 {
+    font-family: "Buenos Aires Tria";
+    font-weight: 300;
+    font-style: Light;
+    font-size: 96px;
+    line-height: 100%;
+    background-image: linear-gradient(#136CB5, #49BBBD );
+    background-clip: text;
+    color: transparent;
+
+}
+
+#success .bottom .info5 p {
+    font-family: "Buenos Aires Trial";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    color: #010514CC;
+    
+}
+
+#all-in-one{
+    padding: 4vw 8vw 4vw 4vw;
+}
+
+#all-in-one .toptext h1 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 180%;
+    color: #2F327D;
+    text-align: center;
+    padding-left: 20px;
+}
+
+#all-in-one .toptext h1 .blue {
+    color: #00CBB8;
+}
+
+#all-in-one .toptext p {
+    color: #696984;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#all-in-one .all-base {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 10px;
+    margin-top: 26px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#all-in-one .all-base .all-box {
+    text-align: center;
+    padding: 24px 32px 24px 32px;
+    gap: 10px;
+    background-color: #FFFFFF;
+    filter: drop-shadow(5px 5px 5px #262D7614);
+}
+
+#all-in-one .all-base .all-box h2 {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: center;
+    color: #2F327D;
+    padding-top: 40px;
+}
+
+#all-in-one .all-base .all-box p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    text-align: center;
+    color: #696984;
+    padding-top: 20px;
+}
+
+#what{
+    padding: 4vw 8vw 4vw 8vw;
+}
+
+#what h1 {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 180%;
+    text-align: center;
+    color: #2F327D;
+}
+
+#what h1 .blue {
+    color: #00CBB8;
+}
+
+#what p {
+    color: #696984;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#what .all-base {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 10px;
+    margin-top: 26px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#what .all-base .all-box {
+    text-align: center;
+    padding: 24px 32px 24px 32px;
+    gap: 10px;
+    background-color: #FFFFFF;
+    filter: drop-shadow(5px 5px 5px #262D7614);
+}
+
+#what.all-base .all-box h2 {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: center;
+    color: #2F327D;
+    padding-top: 40px;
+}
+
+#what .all-base .all-box p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    text-align: center;
+    color: #696984;
+    padding-top: 20px;
+}
