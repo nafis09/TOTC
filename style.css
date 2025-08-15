@@ -1052,3 +1052,362 @@ h1 .blue {
     border-color: #49BBBD;
     text-decoration: none;
 }
+
+
+#testimonial {
+    display: flex;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px;
+    padding: 8vw 1vw 15vw 4vw;
+}
+
+
+
+#testimonial .left h6 {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #525596;
+}
+
+#testimonial .left h1 {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 160%;
+    color: #2F327D;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#testimonial .left h1 .blue {
+    color: #00CBB8;
+}
+#testimonial .left p {
+    color: #696984;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 180%;
+}
+
+
+#testimonial .left .buttons {
+    align-items: center;
+    padding-top: 50px;
+}
+
+#testimonial .left .buttons a {
+    background-color: #FFFFFF;
+    width: 160px;
+    height: 60px;
+    padding: 20px 40px 20px 40px;
+    color: #49BBBD;
+    border-radius: 80px; 
+    border-style: solid;
+    border-width: 1px;
+    border-color: #49BBBD;
+    text-decoration: none;
+}
+
+
+#testimonial .right .img {
+    width: 560;
+    height: 700;
+    padding-bottom: 200px;
+    margin: -150px;
+}
+
+#testimonial .right .img2 {
+    transform: translateX(460px);
+    margin-top: -480px;
+}
+
+
+#testimonial .info-container {
+    width: 680px;
+    height: 330px;
+    color: #595959;
+    background-color: #FFFFFF;
+    padding: 20px 40px 20px 40px;
+    display: grid;
+    position: absolute;
+    border-radius: 20px;
+    transform: translateX(100px);  
+    margin-top: -200px; 
+}
+
+
+#testimonial .info-container p {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 180%;
+    color: #5F5F7E;
+}
+
+#testimonial .info-container h4 {
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: #5F5F7E;
+}
+
+
+#testimonial .info-container img {
+    width: 137px;
+    height: 24px;
+    top: 11606px;
+    left: 1540px;
+    margin-left: 400px;
+    
+
+}
+
+#testimonial .info-container h6 {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #80819A;
+    margin-left: 400px;
+    
+}
+
+.hp h1 {
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 180%;
+    color: #2F327D;
+    text-align: center;
+}
+
+.hp p {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    text-align: center;
+    color: #696984;
+}
+
+#news {
+    display: flex;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    padding: 8vw 8vw 8vw 8vw;
+}
+
+#news aside {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+
+#news main {
+    width: 50%;
+    padding-left: 50px;
+}
+
+#news img {
+    margin-bottom: 40px;
+}
+
+
+#news .left h1 {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 180%;
+    color: #252641;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+}
+
+
+#news .left p {
+    color: #696984;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    margin-bottom: 20px;
+}
+
+#news .left a.btn {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    color: #696984;
+    
+}
+
+#news .left a.btn-transparent {
+    background-color: #49BBBD;
+    width: 130;
+    height: 40;
+    top: 659px;
+    left: 100px;
+    opacity: 1;
+    border-radius: 80px;
+    color: #FFFFFF;
+    padding: 10px 40px 10px 40px;
+    border-radius: 80px;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 180%;
+}
+
+#news .right {
+    display: grid;
+}
+
+
+#news .right .imgs {
+    padding-top: 40px;
+    display: flex;
+    grid-gap: 40px;
+    
+}
+
+#news .right .imgs img {
+    width: 280;
+    height: 220;
+    border-radius: 20px;
+}
+
+#news .right .imgs .imgstxt {
+    display: grid;
+    padding-bottom: 50px;
+}
+
+#news .right .imgs .imgstxt h5 {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 180%;
+    color: #252641;
+
+}
+
+#news .right .imgs .imgstxt p{
+    display: grid;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    color: #696984;
+    
+}
+
+
+#footer {
+   
+    align-items: center;
+    padding: 8vw 8vw 8vw 8vw;
+    background-color: #252641;
+    justify-content: center;
+    text-align: center;
+}
+
+#footer .logotext {
+    display: flex;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#footer .logotext img {
+    margin-left: 30px;
+}
+
+#footer .logotext h2 {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+
+#footer .mail h1 {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 100%;
+    text-align: center;
+    color: #B2B3CF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#footer .copyright {
+   
+} 
+
+#footer .copyright h5 {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    text-align: center;
+    color: #B2B3CF;
+    padding-top: 70px;
+}
+
+#footer .copyright p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    text-align: center;
+    color: #B2B3CF;
+    padding: 30px;
+
+}
+
+
+#footer .mail .mailin a.btnblue {
+    background-color: #49BBBD;
+    width: 180px;
+    height: 60px;
+    border-radius: 60px;
+    color: #FFFFFF;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 100%;
+}
+
+#footer .mail .mailin input {
+    width: 400;
+    height: 60;
+    border-radius: 80px;
+    border-width: 1px;
+    color: #83839A;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    padding: 10px 20px 10px 20px;
+    background-color: #252641;
+    margin-right: 20px;
+    border-color: #83839A;
+   
+
+}
