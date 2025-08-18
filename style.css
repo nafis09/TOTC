@@ -1684,10 +1684,10 @@ h1 .blue {
 /* blog-design */
 
 
-nav {
+.blognav {
+    background-color: white;
     position: fixed;
     width: 100%;
-    background-color: #49BBBD;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
