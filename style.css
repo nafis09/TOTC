@@ -2181,4 +2181,42 @@ nav .navigationblog ul li a.dark {
     color: #49BBBD;
 }
 
+#firstsec {
+    padding: 6vw 0vw 4vw 0vw;
+}
 
+#firstsec h1 {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 180%;
+    text-align: center;
+    color: #2F327D;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#firstsec p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    color: #696984;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+#firstsec .btn a.btn-transparent {
+    background-color: #49BBBD1A;
+    width: 160;
+    height: 60;
+    opacity: 1;
+    border-radius: 36px;
+    color: #696984;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    
+}
