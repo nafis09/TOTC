@@ -2208,6 +2208,12 @@ nav .navigationblog ul li a.dark {
     padding-bottom: 20px;
 }
 
+#firstsec .btn {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    padding-left: 80px;
+}
 
 #firstsec .btn a.btn-transparent {
     background-color: #49BBBD1A;
@@ -2220,3 +2226,69 @@ nav .navigationblog ul li a.dark {
     text-decoration: none;
     
 }
+
+#firstsec .last img {
+    padding-left: 80px;
+} 
+
+#firstsec .last-btn {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 150px;
+}
+
+#firstsec .last-btn a.btn-white {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration-style: solid;
+    color: #49BBBD;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-decoration: none;
+    padding: 20px 85px 20px 85px;
+    border-radius: 80px; 
+    border-style: solid;
+    border-width: 1px;
+    border-color:#00CBB8;
+}
+
+#firstsec .last{
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+
+
+#firstsec .last-info p .black{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+
+}
+
+
+#firstsec .last-info {
+    display: flex;
+}
+
+#firstsec .last-info p {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    color: #696984;
+
+}
+
+#firstsec .last-info img{
+    width: 77px;
+    height: 77px;
+    top: 1600px;
+    left: 120px;
+    border-radius: 6px;
+    margin-left: 80px;
+}
+
