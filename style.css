@@ -4553,3 +4553,102 @@ margin-left: 50px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+
+
+@media (max-width: 768px) {
+
+    #login {
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    #login aside {
+        display: none;
+    }
+
+    #login main {
+        width: 100%;
+        padding: 12px 16px;
+    }
+
+    #login .form input {
+        width: 80;
+    }
+
+    #login .right h1 {
+        font-size: 32px;
+        padding-left: 80px;
+        
+    }
+
+    #login .btn {
+        width: 100%;
+        gap: 12px;
+    }
+
+    #login .btn a {
+        width: 100%;
+        
+    }
+
+    /* reg */
+
+    #register {
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    #register aside {
+        display: none;
+    }
+
+    #register main {
+        width: 100%;
+        padding: 12px 16px;
+    }
+
+    #register .form input {
+        width: 80;
+    }
+
+    #register .right h1 {
+        font-size: 32px;
+        padding-left: 80px;
+        
+    }
+
+    #register .btn {
+        width: 100%;
+        gap: 12px;
+    }
+
+    #register.btn a {
+        width: 100%;
+        
+    }
+
+}
+
+
+    
+
+@media (max-width: 480px) {
+    #login main {
+        padding: 16px;
+        margin-right: 30px;
+    }
+
+    #login .right h1 {
+        font-size: 24px;
+    }
+
+    #register main {
+        padding: 16px;
+        margin-right: 30px;
+    }
+
+    #register .right h1 {
+        font-size: 24px;
+    }
+}
