@@ -4396,3 +4396,160 @@ margin-left: 50px;
     margin-right: auto;
 }
 
+/* meeting-sec */
+
+#firsts {
+    padding: 4vw 8vw 4vw 8vw;
+    background-color: #e1f0ff;
+    display: flex;
+    justify-content: space-between;
+}
+
+#firsts aside {
+    width: 50%;
+}
+
+
+
+#firsts main {
+    width: 50%;
+}
+
+
+#firsts .left {
+    display: flex;
+    
+
+}
+
+
+
+#firsts .limg img{
+    margin-left:425px;
+}
+
+#firsts .right {
+    margin-left: 305px;
+}
+
+#firsts .left .l2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#firsts .left .l5 {
+    background-color: white;
+    margin-left: 50px;
+    width: 1069px;
+    height: 130px;
+    border-radius: 26px;
+    padding: 35px 35px 35px 35px;
+    margin-bottom: 30px;
+    margin-top: -20px;
+}
+
+#firsts .left h1 {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #252641;
+    margin-bottom: 20px;
+}
+
+#firsts .left p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: #252641;
+}
+
+#firsts .right h1 {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    color: #252641;
+    margin-bottom: 20px;
+
+}
+
+#firsts .right h6 {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 2%;
+    color: #49BBBD;
+}
+
+#firsts .right .info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#firsts .right .all-base {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 30px;
+    margin-top: 26px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    align-items: center;
+    
+}
+
+#firsts .right .all-base .all-box {
+    
+    padding: 24px 32px 24px 32px;
+    background-color: #FFFFFF;
+    align-items: center;
+    border-radius: 20px; 
+    width: 501px;
+    height: 650px;
+    border-radius: 20px;
+    border-width: 30px;
+}
+
+
+#firsts .right .accordion {
+  background-color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-left: 20px;
+}
+
+#firsts .right .active, .accordion:hover {
+  background-color: white; 
+}
+
+
+#firsts .right .accordion:after {
+  content: '\02C5';
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+#firsts .right .active:after {
+  content: "\02C4";
+}
+
+#firsts .right .panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
