@@ -2062,7 +2062,7 @@ nav .navigationblog ul li a.dark {
 
 
 #marketing{
-    padding: 4vw 8vw 4vw 4vw;
+    padding: 4vw 8vw 2vw 4vw;
 }
 
 
@@ -4046,7 +4046,6 @@ nav .navigationblog ul li a.dark {
 #top .accordion {
   background-color: white;
   cursor: pointer;
-  width: 100%;
   border: none;
   text-align: left;
   outline: none;
@@ -4060,8 +4059,7 @@ nav .navigationblog ul li a.dark {
   line-height: 100%;
   text-align: center;
   padding: 18px 43px 19px 18px;
-  justify-content: space-between;
-  display: flex;
+
 }
 
 #top .active, .accordion:hover {
@@ -4137,3 +4135,264 @@ nav .navigationblog ul li a.dark {
 
 
 } 
+
+
+
+#wholeimg {
+    padding: 4vw 4vw 4vw 6vw;
+}
+
+#wholeimg .toptext {
+    display: flex;
+    justify-content: space-between;
+}
+
+#wholeimg .toptext h1 {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000000;
+    padding-bottom: 40px;
+    
+}
+
+#wholeimg .toptext a.btn-sea {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #49BBBD;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
+/* literaturecourse */
+
+
+
+#secondsection {
+     padding: 0vw 4vw 4vw 4vw;
+}
+
+#secondsection .btn {
+    display: flex;
+    justify-content: flex-start;
+    gap: 26px;
+    padding-left: 30px;
+   
+   
+}
+
+#secondsection .btn a.btn-transparent {
+    background-color: #BBBBBB80;
+    border-radius: 12px;
+    color: #696969;
+    padding: 20px 50px 20px 50px;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+
+    
+}
+
+
+#secondsection .btn a.btn-green {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    text-decoration-style: solid;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px 50px 20px 50px;
+    border-radius: 12px; 
+    border-style: solid;
+    border-width: 1px;
+    background-color: #49BBBD;
+}
+
+
+
+#firstsection .bg {
+    transform: translateY(-395px);
+    margin-left: 150px;
+    position: absolute;
+}
+
+#firstsection .bg2 {
+    transform: translateY(-383px);
+    margin-left: 162px;
+}
+
+#firstsection .bgright .r1 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#firstsection .bgright .r1 h1{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: #000000;
+}
+
+#firstsection .bgright .r1 a.btn-green {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    text-decoration-style: solid;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px 30px 20px 30px;
+    border-radius: 12px; 
+    background-color: #49BBBD;
+}
+
+#fi {
+    padding: 4vw 4vw 1vw 7vw;
+    
+}
+
+#fi img {
+    width: 1679px;
+    height: 415px;
+    border-radius: 20px;
+}
+
+#firstsection {
+    display: flex;
+    position: absolute;
+    
+}
+
+#firstsection .bgright {
+    background-color: #FFFFFFCC;
+    transform: translateY(-385px);
+    width: 1199px;
+    height: 348px;
+    border-radius: 20px;
+    padding: 48px 42px 36px 50px;
+    margin-left: 80px;
+    position: relative;
+    
+}
+
+#firstsection .bgright p {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #2D3436B2;
+}
+
+
+#firstsection .bgright h4 {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #2D3436;
+}
+
+#firstsection .bgright .r4 {
+    display: flex;
+}
+
+#firstsection .bgright .r2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 125px;
+}
+
+#firstsection .bgright .r3 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    margin-left: 320px;
+}
+
+
+#memtops{
+    padding: 1vw 4vw 4vw 2vw;
+}
+
+
+#memtops .toptext h1 {
+font-family: "Poppins";
+font-weight: 500;
+font-size: 30px;;
+line-height: 100%;
+letter-spacing: 2%;
+color: #000000;
+margin-left: 50px;
+
+}
+
+
+#memtops .all-base {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 26px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    gap: 86px;
+   
+
+    
+}
+
+#memtops .all-base .all-box {
+    
+    padding: 24px 32px 24px 32px;
+    
+    background-color: #FFFFFF;
+    border-radius: 20px; 
+     box-shadow: 2px 2px 10px 2px #00000040;
+
+}
+
+
+
+#memtops .all-base .all-box p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: #000000CC;
+}
+
+#memtops .all-base .all-box h1 {
+    font-family: "Poppins";
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: #49BBBDCC;
+}
+
+#memtops .all-base .all-box .last {
+    display: flex;
+    justify-content: space-between;
+}
+
+#memtops img {
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
