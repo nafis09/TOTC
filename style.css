@@ -5216,6 +5216,45 @@ nav .navigationblog ul li {
     width: 100%;
 }
 
+#firstimg img {
+    width: 130vh;
+}
+
+#firstsect .btn {
+    display: grid;
+    align-items: center;
+    
+}
+
+#firstsect aside {
+   width: 100%;
+}
+
+#firstsect aside .left .left4 .left3 {
+   display: none;  
+}
+
+#firstsect main {
+    display: none;
+}
+
+#firstsect .btn {
+   
+    gap: 10px;
+    width: 100%;
+}
+
+#firstsect .last {
+    display: none;
+}
+
+#cmarketing .toptext {
+    display: block;
+}
+
+
+
+
 
 }
  
@@ -5245,6 +5284,19 @@ nav .navigationblog ul li {
     border-radius: 6px;
    
  }
+
+ #cmarketing .all-base .all-box img {
+    width: 250px;
+ }
+
+     #instruction .all-base .all-box {
+        display: none;
+     }
+
+ 
+     #firstimg img {
+    width: 80vh;
+}
 
  #online1 p {
     font-size: 20px;
