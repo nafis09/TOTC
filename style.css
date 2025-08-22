@@ -4779,6 +4779,25 @@ section#home:after {
     display: none;
 }
 
+
+
+#relatedd .toptext h1 {
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+#relatedd .toptext a.btn-sea {
+    margin-top: 50px;
+}
+
+#relatedd .last img {
+    margin-left: 500px;
+}
+
+#Recommendedd .last img {
+    margin-left: 500px;
+}
+
 #success .bottom {
     gap: 10px;
     padding-top: 20px;
@@ -4956,6 +4975,7 @@ section#home:after {
 
 #testimonial main {
     padding-bottom: 50px;
+    display: none;
 }
 
 #testimonial main .right{
@@ -5019,9 +5039,185 @@ section#home:after {
     width: 180%;
 }
 
+
+/* blog */
+
+.blognav {
+    padding: 15px 20px;
+  
+}
+
+nav img {
+    width: 80px;
+    height: 60px;
+    top: 30px;
+    left: 121px;
+    border-radius: 6px;
+}
+
+#menu-btn {
+
+    display: initial;
+}
+
+#close {
+    display: initial;
+    font-size: 25px;
+    color: white;
+    padding: 0px 0px 10px 20px;
+}
+
+nav .navigationblog ul {
+    position: absolute;
+    top: 0;
+    right: -220px;
+    width: 220px;
+    background-color: rgba(17, 20, 104, 0.45);
+    backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: 0.3s ease;
+}
+
+nav .navigationblog ul.active{
+    right:0;
+}
+
+nav .navigationblog ul li {
+    padding: 20px 0 20px 40px;
+    margin-left: 0;
 }
 
 
+#first {
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#first .left {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+#first aside {
+    width: 100%;
+}
+
+#first main img {
+    width: 200%;
+
+}
+
+#related .toptext {
+    display: block;
+    align-content: center;
+    
+}
+#related .toptext a.btn-sea {
+    
+    padding-right: 25px;
+}
+
+#related .toptext h1 {
+    padding: 0;
+}
+
+#related .all-base .all-box .main-img img {
+    width: 100%;
+}
+
+#related .last img {
+    margin-left: 600px;
+}
+
+#marketing .toptext {
+    display: block;
+    align-content: center;
+}
+
+#marketing .toptext a.btn-sea {
+    padding-left: 25px;
+    
+}
+
+#firstsec img {
+    width: 110vh;
+    height: 50vh;
+    margin-top: 40px;
+}
+
+#firstsec h1 {
+    font-size: 20px;
+    
+}
+
+
+#firstsec p {
+    font-size: 15px;
+}
+
+#firstsec .btn {
+   margin: 0;
+   gap: 10px;
+   display: block;
+
+}
+
+#firstsec .last {
+    display: none;
+}
+
+#related .last img {
+    margin-left: 400px;
+}
+
+#memtop .toptext h1 {
+
+    font-size: 40px;
+    margin-top: 40px;
+
+}
+
+
+#memtop .all-base {
+    display: grid;
+    gap: 10px;
+
+}
+
+#online2 .lastimg {
+    display: none;
+}
+
+
+#stu .all-base {
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#stu .all-base .all-box img {
+    width: 220px;
+    height: 150px;
+    border-radius: 6px;
+   
+ }
+
+ #app .btn{
+     display: none;
+}
+
+#relateds .all-base .all-box .main-img img {
+    width: 100%;
+}
+
+
+}
  
 
 @media (max-width: 480px) {
@@ -5043,6 +5239,56 @@ section#home:after {
         font-size: 24px;
     }
 
+    #stu .all-base .all-box img {
+    width: 130px;
+    height: 130px;
+    border-radius: 6px;
+   
+ }
+
+ #online1 p {
+    font-size: 20px;
+ }
+
+ #online1 a.btnblue {
+    font-size: 10px;
+ }
+
+ #app {
+    margin-top: 20px;
+ }
+
+ #app h1 {
+    font-size: 20px;
+ }
+
+ #relatedd .all-base .all-box .main-img img {
+    width: 260px;
+ }
+
+ #relatedd .all-base .all-box .img-info img {
+    width: 250px;
+ }
+
+ #relatedd .all-base .all-box p {
+    margin: 0;
+ }
+
+ #relatedd .last img {
+    margin-left: 300px;
+ }
+
+ #Recommendedd .all-base .all-box img{
+    width: 250px;
+ }
+
+#Recommendedd .last img {
+    margin-left: 250px;
+}
+
+#choice .all-base .all-box img {
+    width: 250px;
+}
 
      #home {
     width: 100%;
@@ -5050,7 +5296,23 @@ section#home:after {
     display: flex;
     padding: 80px 20px 20px 50px;
     background-color: #49BBBD;
+    }
+
+    #firstsec img {
+    width: 83vh;
+    height: 50vh;
+    margin-top: 40px;
 }
+
+    #firstsec h1 {
+        font-size: 20px;
+        
+    }
+
+
+    #firstsec p {
+        font-size: 15px;
+    }
 
 
 
@@ -5099,6 +5361,17 @@ section#home:after {
     display: none;
 }
 
+#related .last img {
+    margin-left: 300px;
+}
+#related {
+    margin: 0;
+    
+}
+
+#marketing .all-base{
+margin: 0;
+}
 
 
 
@@ -5364,3 +5637,4 @@ display: none;
     margin-bottom: 50px;
 }
 }
+
