@@ -9,6 +9,8 @@
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -17,6 +19,7 @@
     <img src="images/logo.png" alt="">
     <div class="navigation">
         <ul>
+            <img id="close" src="images/close.png" alt="">
             <li><a href="#">Home</a></li>
             <li><a href="course.html">Courses</a></li>
             <li><a href="#">Careers</a></li>
@@ -25,6 +28,7 @@
             <li><a href="login.html"class="btn-white">Login</a></li>
             <li><a href="register.html" class="btn-transparent">Sign up</a></li>
         </ul>
+        <img id="menu-btn" src="images/menu.png">
     </div>
 </nav>
 
@@ -447,7 +451,18 @@
         <p>© 2025 TOTC Inc. </p>
     </div>
 
+
 </section>
+
+<script>
+    $('#menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+    });
+    $('#close').click(function(){
+        $('nav .navigation ul').removeClass('active')
+    });
+
+</script>
 
     
 </body>

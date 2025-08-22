@@ -63,6 +63,16 @@ nav .navigation {
     display: flex;
 }
 
+#menu-btn {
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+#close {
+    display: none;
+}
+
 nav .navigation ul {
     display: flex;
     justify-content: flex-end;
@@ -4592,7 +4602,7 @@ margin-left: 50px;
         
     }
 
-    /* reg */
+        /* reg */
 
     #register {
         align-items: center;
@@ -4628,10 +4638,391 @@ margin-left: 50px;
         
     }
 
+
+nav {
+    padding: 15px 20px;
+  
+}
+
+nav img {
+    width: 80px;
+    height: 60px;
+    top: 30px;
+    left: 121px;
+    border-radius: 6px;
+}
+
+#menu-btn {
+
+    display: initial;
+}
+
+#close {
+    display: initial;
+    font-size: 25px;
+    color: white;
+    padding: 0px 0px 10px 20px;
+}
+
+nav .navigation ul {
+    position: absolute;
+    top: 0;
+    right: -220px;
+    width: 220px;
+    background-color: rgba(17, 20, 104, 0.45);
+    backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: 0.3s ease;
+}
+
+nav .navigation ul.active{
+    right:0;
+}
+
+nav .navigation ul li {
+    padding: 20px 0 20px 40px;
+    margin-left: 0;
 }
 
 
+ #home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 80px 20px 20px 50px;
+    background-color: #49BBBD;
+}
+
+section#home:after {
+    display: none;
+}
+
+
+#home .left h1 {
+
+    font-size: 40px;
+
+}
+
+#home .left h1 .orange-txt {
+
+    font-size:40px;
+
+}
+
+#home .left p {
+
+    font-size: 20px;
+;
+} 
+
+#home .left a.btn-transparent {
+
+    padding: 20px 40px 20px 40px;
+
+    font-size: 16px;
+   
+}
+
+#home .left-btn {
+    position: relative;
+    display: flex;
+    width: 232;
+    height: 36;
+    top: 120px;
+    right: 150px;
+   
+}
+
+#home .left-btn img {
+    width: 150px;
+    height: 150px;
+}
+
+
+#home .left-btn p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #252641;
+    padding-top: 40px;
+    padding-right: 40px;
+} 
+
+#home .right img {
+  display: none;
+  
+}
+
+#home  .img2 {
+    display: none;
+}
+
+#home .achievement-cards .achievement-card1 {
+     display: none;
+}
+
+
+#home .achievement-cards .achievement-card2 {
+    display: none;
+
+}
+
+
+#home .achievement-cards .achievement-card3 {
+    display: none;
+}
+
+#success .bottom {
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+#success .bottom .info1 h2 {
+    font-size: 40px;
+
+}
+#success .bottom .info1 p {
+    font-size: 20px;
+
+}
+
+#success .bottom .info2 h2 {
+    font-size: 40px;
+
+}
+#success .bottom .info2 p {
+    font-size: 20px;
+
+}
+
+#success .bottom .info3 h2 {
+    font-size: 40px;
+
+}
+#success .bottom .info3 p {
+    font-size: 20px;
+
+}
+
+#success .bottom .info4 h2 {
+    font-size: 40px;
+
+}
+#success .bottom .info4 p {
+    font-size: 20px;
+
+}
+
+#success .bottom .info5 h2 {
+    font-size: 40px;
+
+}
+#success .bottom .info5 p {
+    font-size: 20px;
+
+}
+
+#all-in-one .all-base {
+    margin-left: 50px;
+
+}
+#learnmore .right .mainimg {
+    display: none;
+
+}
+
+#learnmore .right .imgr1 {
+    display: none;
+}
+
+#learnmore .right .imgr2 {
+    display: none;
+}
+
+#learnmore {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1vw 8vw 1vw 8vw;
+}
+
+#learnmore aside {
+    width: 100%;
+    padding-bottom: 50px;
+    margin-left: 100px;
+}
+
+#features aside .left {
+    display: none;
+}
+
+#tools {
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#tools .left {
+    text-align: center;
     
+}
+
+#tools aside {
+    width: 100%;
+}
+
+#quiz {
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#quiz .right {
+    text-align: center;
+    
+}
+
+#quiz main {
+    width: 100%;
+}
+
+#management {
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#management .left {
+    text-align: center;
+    
+}
+
+#management aside {
+    width: 100%;
+}
+
+#management main {
+    display: none;
+}
+
+#discussions {
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#discussions .right {
+    text-align: center;
+    
+}
+
+#discussions main {
+    width: 100%;
+}
+
+#discussions .left img {
+    width: 220%;
+}
+
+.button {
+    align-items: center;
+    padding-bottom: 50px;
+    padding-left: 250px;
+    padding-top: 30px;
+}
+
+
+#testimonial {
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#testimonial .left {
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+
+#testimonial aside {
+    width: 100%;
+}
+
+#testimonial main {
+    padding-bottom: 50px;
+}
+
+#testimonial main .right{
+    width: 80%;
+}
+
+#testimonial .info-container {
+    transform: translateX(-50px);
+    margin-top: -200px;
+   
+    
+}
+
+#news img {
+   width: 80%;
+}
+
+#learnmore .left .img2 {
+    display: none;
+}
+
+#testimonial .left p {
+    font-size: 13px;
+
+}
+#what .all-base .all-box img {
+    width: 450px;
+}
+
+#quiz .left img {
+    width: 220%;
+}
+
+#news {
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#news .left {
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+
+#news aside {
+    width: 100%;
+}
+
+#news .right .imgs img {
+   width: 120%;
+   height: 80%;
+   padding-top: 30px;
+}
+
+#what .all-base .all-box {
+    padding: 24px 32px 24px 0px;
+
+}
+
+#tools .right .imgr1 img {
+    width: 180%;
+}
+
+}
+
+
+ 
 
 @media (max-width: 480px) {
     #login main {
@@ -4651,4 +5042,325 @@ margin-left: 50px;
     #register .right h1 {
         font-size: 24px;
     }
+
+
+     #home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 80px 20px 20px 50px;
+    background-color: #49BBBD;
+}
+
+
+
+
+#home .left h1 {
+
+    font-size: 28px;
+    padding-top: 10px;
+
+}
+
+#home .left h1 .orange-txt {
+
+    font-size:40px;
+
+}
+
+#home .left p {
+
+    font-size: 18px;
+
+} 
+
+#home .left a.btn-transparent {
+
+    padding: 20px 40px 20px 40px;
+
+    font-size: 16px;
+   
+}
+
+#home .left-btn {
+    position: relative;
+    display: flex;
+    width: 232;
+    height: 36;
+    top: 120px;
+    right: 150px;
+    display: none;
+   
+}
+
+#home .left-btn img {
+    width: 150px;
+    height: 150px;
+    display: none;
+}
+
+
+
+
+#success .bottom .info1 h2 {
+    font-size: 20px;
+
+}
+#success .bottom .info1 p {
+    font-size: 10px;
+
+}
+
+#success .bottom .info2 h2 {
+    font-size: 20px;
+
+}
+#success .bottom .info2 p {
+    font-size: 10px;
+
+}
+
+#success .bottom .info3 h2 {
+    font-size: 20px;
+
+}
+#success .bottom .info3 p {
+    font-size: 10px;
+
+}
+
+#success .bottom .info4 h2 {
+    font-size: 20px;
+
+}
+#success .bottom .info4 p {
+    font-size: 10px;
+
+}
+
+#success .bottom .info5 h2 {
+    font-size: 20px;
+
+}
+#success .bottom .info5 p {
+    font-size: 10px;
+
+}
+
+#all-in-one .all-base {
+    margin-left: 50px;
+
+}
+#learnmore .right .mainimg {
+    display: none;
+
+}
+
+#learnmore .right .imgr1 {
+    display: none;
+}
+
+#learnmore .right .imgr2 {
+    display: none;
+}
+
+#learnmore {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1vw 8vw 1vw 8vw;
+}
+
+#learnmore aside {
+    width: 100%;
+    padding-bottom: 50px;
+    margin-left: 100px;
+}
+
+#features aside .left {
+    display: none;
+}
+
+#tools {
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#tools .left {
+    text-align: center;
+    
+}
+
+#tools aside {
+    width: 100%;
+}
+
+#quiz {
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#quiz .right {
+    text-align: center;
+    
+}
+
+#quiz main {
+    width: 100%;
+}
+
+#management {
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#management .left {
+    text-align: center;
+    
+}
+
+#management aside {
+    width: 100%;
+}
+
+#management main {
+    display: none;
+}
+
+#discussions {
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#discussions .right {
+    text-align: center;
+    
+}
+
+#discussions main {
+    width: 100%;
+}
+
+#discussions .left img {
+    width: 220%;
+}
+
+.button {
+    align-items: center;
+    padding-bottom: 50px;
+    padding-left: 250px;
+    padding-top: 30px;
+}
+
+
+#testimonial {
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#testimonial .left {
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+
+#testimonial aside {
+    width: 100%;
+}
+
+#testimonial main {
+    padding-bottom: 50px;
+    
+}
+
+#testimonial main .right{
+    width: 10%;
+}
+
+#testimonial main .right img {
+    width: 450px;
+}
+
+#testimonial .info-container {
+display: none;
+    
+}
+
+#news img {
+   width: 80%;
+}
+
+#learnmore .left .img2 {
+    display: none;
+}
+
+#testimonial .left p {
+    font-size: 13px;
+
+}
+#what .all-base .all-box img {
+    width: 380px;
+}
+
+#what .all-base .all-box .imgtxt a.btn-white{
+    border-style: none;
+    padding: 10px 10px 10px 10px;
+}
+
+#what .all-base .all-box .imgtxt a.btn-transparent{
+    border-style: none;
+    padding: 10px 10px 10px 10px;
+    background-color: transparent;
+}
+
+.button a {
+    border-style: none;
+    background-color: transparent;
+    padding: 10px 10px 10px 10px;
+}
+
+#quiz .left img {
+    width: 220%;
+}
+
+#news {
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#news .left {
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+
+#news aside {
+    width: 100%;
+}
+
+#news .right .imgs img {
+   width: 100%;
+   height: 50%;
+   padding-top: 30px;
+}
+#news .right .imgs .imgstxt h5 {
+    font-size: 15px;
+}
+
+#news .right .imgs .imgstxt p {
+    font-size: 15px;
+}
+
+#what .all-base .all-box {
+    padding: 24px 32px 24px 0px;
+
+}
+
+#tools .right .imgr1 img {
+    width: 180%;
+}
+
+#footer .mail .mailin input {
+    margin-bottom: 50px;
+}
 }
