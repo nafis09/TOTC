@@ -4434,6 +4434,7 @@ margin-left: 50px;
 
 
 
+
 #firsts .limg img{
     margin-left:425px;
 }
@@ -5252,12 +5253,161 @@ nav .navigationblog ul li {
     display: block;
 }
 
+#firstsectt .left {
+    padding-top: 40px;
+}
+
+#firstsectt .left .left2 {
+    display: grid;
+}
+
+#firstsectt .left a.btnseag {
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
 
 
+#firstsectt .right .all-base {
+    margin-top: 26px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+   
+}
 
+#firstsectt .form {
+    padding-top: 80px;
+}
+
+#firstsectt .right .all-base .all-box {
+    align-items: center;
+    border-radius: 20px;
+    width: 350px;
+    height: 550px;
 
 }
- 
+
+#firstsectt .right .all-base .all-box img{
+    display: none;
+    
+}
+
+#wholeimg {
+    display: none;
+}
+
+#say .bg {
+    width: 50%;
+}
+
+#say .bg main {
+    display: none;
+}
+
+#say .bg aside {
+    width: 100%;
+}
+
+#say .bg aside .left {
+    width: 50%;
+}
+
+
+#know .bg {
+    width: 100%;
+}
+
+#know .bg main {
+    display: none;
+}
+
+#know .bg aside .left {
+    width: 100%;
+}
+
+#know .bg aside {
+    width: 100%;
+}
+
+#top img {
+    width: 125vh;
+}
+
+#top .form input {
+    width: 100%;
+    margin-left: 120px;
+    transform: none;
+}
+
+#top .top2 {
+    display: grid;
+    transform: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#top .btn {
+    transform: none;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+
+#top .btn .btnblue {
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+
+#firsts {
+    display: grid;
+}
+#firsts .left {
+    display: grid;
+}
+#firsts .limg1 img {
+    width: 170%;
+    height: 100%;
+    margin-left: 80px;
+}
+
+#firsts .right{
+    margin-left: 0px;
+}
+
+#firsts .limg img {
+    margin-left: 120px;
+}
+
+#firsts .left .l5 {
+    width: 180%;
+    height: 80%;
+}
+
+#secondsection .btn {
+    display: grid;
+    
+    justify-content: center;
+}
+
+#memtops .all-base {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+
+#fi img{
+   width: 100%;
+   margin-top: 50px;
+}
+
+#firstsection .bgright {
+    transform: none;
+    display: none;
+}
+
+
+
+
+
+} 
 
 @media (max-width: 480px) {
     #login main {
@@ -5688,5 +5838,135 @@ display: none;
 #footer .mail .mailin input {
     margin-bottom: 50px;
 }
+
+#firstsectt .left {
+    padding-top: 60px;
+}
+
+
+
+#firstsectt .left a.btnseag {
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+#firstsectt .right .all-base {
+    margin-top: 70px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+   
+}
+
+#firstsectt .form input {
+    width: 350px;
+}
+
+#firstsectt {
+    display: grid;
+}
+
+#firstsectt .form {
+    padding-top: 30px;
+}
+
+#firstsectt .right .all-base .all-box {
+    align-items: center;
+    border-radius: 20px;
+    width: 350px;
+    height: 420px;
+
+}
+
+#firstsectt .right .all-base .all-box h1 {
+    font-size: 20px;
+}
+
+#firstsectt .right .all-base .all-box .pr h1 {
+    font-size: 15px;
+}
+
+#firstsectt .right .all-base .all-box .pr h3 {
+    font-size: 15px;
+}
+
+#firstsectt .right .all-base .all-box .pr h4 {
+    font-size: 20px;
+}
+
+#firstsectt .right .all-base .all-box .info {
+    justify-content: flex;
+}
+
+#firstsectt .right .all-base .all-box .info h2 {
+    font-size: 15px;
+}
+
+#firstsectt .right .all-base .all-box .info p {
+    font-size: 15px;
+}
+
+#top img {
+        width: 80vh;
+    }
+
+#say {
+    display: none;
+}
+
+    #top .form input{
+        margin-left: 50px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+
+
+#firsts .limg1 img {
+    width: 200%;
+    height: 150%;
+    margin-left: 10px;
+}
+
+#firsts .right .all-base {
+    margin: 20px 0px 20px 0px;
+}
+
+#firsts .limg img {
+    margin-left: 0px;
+    width: 210%;
+}
+
+#firsts .left .l5 {
+    width: 100%;
+    height: 85%;
+}
+
+#firsts .right .all-base .all-box {
+    width: 420px;
+    height: 480px;
+
+}
+
+#firsts .right .all-base .all-box img {
+    display: none;
+}
+
+#memtops .all-base .all-box .info-img img{
+    width: 100%;
+}
+
+#memtops img {
+    width: 80%;
+}
+
+#firstsection .bg {
+    margin-left: 70px;
+}
+
+#firstsection .bg2 {
+    margin-left: 82px;
+}
+
 }
 
