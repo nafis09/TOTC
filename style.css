@@ -2502,9 +2502,9 @@ nav .navigationblog ul li a.dark {
 } 
 
 #online1 a.btnblue {
-    font-family: "Inter";
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 100%;
     color: white;
     text-decoration: none;
